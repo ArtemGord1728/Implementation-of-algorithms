@@ -5,5 +5,4 @@ def swap_items(array, right, left):
         array[right] = temp
 
 
-def bubble_sort():
-    return 0
+def bubble_sort(array_items):
