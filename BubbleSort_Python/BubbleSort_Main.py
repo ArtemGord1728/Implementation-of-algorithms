@@ -6,3 +6,4 @@ def swap_items(array, right, left):
 
 
 def bubble_sort(array_items):
+    return 0
