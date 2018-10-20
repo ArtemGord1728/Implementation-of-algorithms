@@ -2,23 +2,21 @@ package artem.bubblesort;
 
 public class BubbleSort_Class
 {
-    public int Swap(int array[], int right, int left)
+    public void swap(int array[], int right, int left)
     {
-        int item = 0;
         if(right < left)
         {
-            item = array[right];
-            array[right] = array[left];
-            array[left] = item;
+            int item = array[left];
+            array[left] = array[right];
+            array[right] = item;
         }
-        return item;
     }
 
     public void Sort(int main_array[])
     {
-        for(int x = 0; x < main_array.length; x++)
+        for(int x = 0; x < main_array.length - 1; x++)
         {
-            Swap(main_array, x , x + 1);
+            swap(main_array, x - 1, x + 1);
         }
     }
 }
