@@ -30,7 +30,6 @@ public class BubbleSort_Class
                     isSwapped = true;
                     swap(main_array, x + 1, x);
                 }
-                //System.out.println(main_array[x]);
             }
         }while (!isSwapped);
     }
