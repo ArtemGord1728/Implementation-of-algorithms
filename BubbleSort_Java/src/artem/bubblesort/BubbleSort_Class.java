@@ -14,7 +14,7 @@ public class BubbleSort_Class
     {
         for (int i = 0; i < arr.length; i++)
         {
-            System.out.println("Первоначальный массив - " + arr[i]);
+            System.out.print(arr[i] + " ");
         }
         System.out.println();
     }
@@ -38,7 +38,7 @@ public class BubbleSort_Class
     {
         for (int i = 0; i < arr.length; i++)
         {
-            System.out.println("Отсортированный массив - " + arr[i]);
+            System.out.println(arr[i] + " ");
         }
     }
 }
