@@ -8,5 +8,6 @@ public class Main {
         BubbleSort_Class b_sort = new BubbleSort_Class();
         b_sort.PrintArray(mas);
         b_sort.Sort(mas);
+        b_sort.ReadyArray(mas);
     }
 }
