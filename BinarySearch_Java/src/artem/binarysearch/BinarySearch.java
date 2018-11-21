@@ -5,7 +5,7 @@ public class BinarySearch
     public int searchItem(int[] listItems, int item)
     {
         int lowElem = 0;
-        int highElem = listItems.length - 1;
+        int highElem = (listItems.length) - 1;
 
         while (lowElem <= highElem)
         {
