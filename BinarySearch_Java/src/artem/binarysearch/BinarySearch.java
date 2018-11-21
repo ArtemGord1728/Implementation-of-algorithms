@@ -5,11 +5,11 @@ public class BinarySearch
     public int searchItem(int[] listItems, int item)
     {
         int lowElem = 0;
-        int highElem = (listItems.length) - 1;
+        int highElem = listItems.length - 1;
 
         while (lowElem <= highElem)
         {
-            int middle = (lowElem + highElem);
+            int middle = (lowElem + highElem) / 2;
             int guessItem = listItems[middle];
 
             if(guessItem == item)
@@ -21,6 +21,6 @@ public class BinarySearch
                 highElem = middle + 1;
         }
 
-        return item;
+        return 0;
     }
 }
