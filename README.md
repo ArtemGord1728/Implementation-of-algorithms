@@ -6,7 +6,7 @@ Implementation Plan for Algorithms and Data Structures:
 
 <b>Sorting</b>
  - Bubble sort
- - Binary Search
+ - ~~Binary Search~~
  - Quick sort
  - Sort Inserts
  - Sort By Choice
