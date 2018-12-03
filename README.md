@@ -17,3 +17,4 @@ Implementation Plan for Algorithms and Data Structures:
  <b>Data Structures</b>
  - List
  - Hash Table
+ - Stack
