@@ -16,10 +16,21 @@ public class Stack<T>
     public Stack() {
     }
 
-    public void add(Object element){
+    public void add(Object element) {
         topOfStack++;
         elementsList.add(element);
     }
+
+    public void remove(int index) {
+        topOfStack--;
+        elementsList.remove(index);
+    }
+
+    public int size()
+    {
+        return elementsList.size();
+    }
+
 
     public boolean empty()
     {
