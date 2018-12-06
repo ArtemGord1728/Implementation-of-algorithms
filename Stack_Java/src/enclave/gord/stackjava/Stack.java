@@ -5,25 +5,28 @@ import java.util.List;
 
 public class Stack<T>
 {
-    private List<Object> elementsList = new ArrayList<>();
+    private List<T> elementsList;
     private int topOfStack;
 
-    public Stack(List<Object> elementsList)
-    {
-        this.elementsList = elementsList;
-    }
-
     public Stack() {
+        elementsList = new ArrayList<>();
     }
 
-    public void add(Object element) {
+    public void add(T element) {
         topOfStack++;
         elementsList.add(element);
     }
 
     public void remove(int index) {
         topOfStack--;
-        elementsList.remove(index);
+        T i = elementsList.get(index);
+        elementsList.remove(i);
+    }
+
+    public void printElements()
+    {
+        for (T t : elementsList)
+            System.out.println(t);
     }
 
     public int size()
