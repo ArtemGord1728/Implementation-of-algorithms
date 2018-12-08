@@ -1,6 +1,6 @@
 package enclave.gord.stackjava;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Stack<T> {
@@ -8,7 +8,7 @@ public class Stack<T> {
     private int topOfStack;
 
     public Stack() {
-        elementsList = new ArrayList<>();
+        elementsList = new LinkedList<>();
     }
 
     public void add(T element) {
@@ -21,7 +21,7 @@ public class Stack<T> {
     }
 
     public void pop() {
-        
+
     }
 
 
