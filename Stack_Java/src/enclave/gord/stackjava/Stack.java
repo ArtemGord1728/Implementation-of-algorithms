@@ -17,6 +17,11 @@ public class Stack<T>
         elementsList.add(element);
     }
 
+    public void push(T element)
+    {
+        elementsList.set(0, element);
+    }
+
     public void remove(int index) {
         topOfStack--;
         T i = elementsList.get(index);
