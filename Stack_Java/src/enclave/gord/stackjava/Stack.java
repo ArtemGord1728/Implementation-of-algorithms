@@ -21,7 +21,8 @@ public class Stack<T> {
     }
 
     public void pop() {
-
+        topOfStack--;
+        elementsList.remove(0);
     }
 
 
