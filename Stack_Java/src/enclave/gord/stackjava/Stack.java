@@ -3,8 +3,7 @@ package enclave.gord.stackjava;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Stack<T>
-{
+public class Stack<T> {
     private List<T> elementsList;
     private int topOfStack;
 
@@ -17,9 +16,17 @@ public class Stack<T>
         elementsList.add(element);
     }
 
-    public void push(T element)
-    {
+    public void push(T element) {
         elementsList.set(0, element);
+    }
+
+    public void pop() {
+        
+    }
+
+
+    public T peek() {
+        return elementsList.get(0);
     }
 
     public void remove(int index) {
@@ -28,20 +35,17 @@ public class Stack<T>
         elementsList.remove(i);
     }
 
-    public void printElements()
-    {
+    public void printElements() {
         for (T t : elementsList)
             System.out.println(t);
     }
 
-    public int size()
-    {
+    public int size() {
         return elementsList.size();
     }
 
 
-    public boolean empty()
-    {
+    public boolean empty() {
         return elementsList.isEmpty();
     }
 }
