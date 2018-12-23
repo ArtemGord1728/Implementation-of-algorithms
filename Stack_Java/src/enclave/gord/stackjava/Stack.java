@@ -50,6 +50,12 @@ public class Stack<T> {
         return elementsList.size();
     }
 
+    public boolean isElementInList(T element) {
+        if(elementsList.contains(element))
+            return true;
+        else
+            return false;
+    }
 
     public boolean empty() {
         return elementsList.isEmpty();
