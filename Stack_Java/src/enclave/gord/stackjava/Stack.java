@@ -25,6 +25,11 @@ public class Stack<T> {
         elementsList.remove(0);
     }
 
+    public void search(Object o)
+    {
+
+    }
+
 
     public T peek() {
         return elementsList.get(0);
