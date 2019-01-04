@@ -16,5 +16,5 @@ Implementation Plan for Algorithms and Data Structures:
  ##
  <b>Data Structures</b>
  - ArrayList
- - Hash Table
+ - HashMap
  - Stack
