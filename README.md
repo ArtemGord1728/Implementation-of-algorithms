@@ -15,6 +15,6 @@ Implementation Plan for Algorithms and Data Structures:
  - Tim Sort
  ##
  <b>Data Structures</b>
- - List
+ - ArrayList
  - Hash Table
  - Stack
