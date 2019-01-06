@@ -3,15 +3,12 @@ package array_list;
 public class ArrayList<E> {
 
     private static int amountElements;
-    private E[] arr;
 
-    static {
-        amountElements = 0;
+    public ArrayList() {
     }
 
     public void add(E element){
         amountElements++;
-        arr[amountElements] = element;
     }
 
     public void add(int index, E element) {
@@ -19,13 +16,15 @@ public class ArrayList<E> {
     }
 
     public void clear() {
-        amountElements = 0;
     }
 
     public int size() {
         return amountElements;
     }
 
+    public boolean isEmpty() {
+        return amountElements == 0;
+    }
 
     @Override
     public boolean equals(Object obj) {
