@@ -2,28 +2,30 @@ package array_list;
 
 public class ArrayList<E> {
 
-    private static int amountElement;
+    private static int amountElements;
+    private E[] arr;
 
     static {
-        amountElement = 0;
+        amountElements = 0;
     }
 
     public void add(E element){
-        amountElement++;
+        amountElements++;
+        arr[amountElements] = element;
     }
 
     public void add(int index, E element) {
-        amountElement++;
+        amountElements++;
     }
 
     public void clear() {
-        amountElement = 0;
+        amountElements = 0;
     }
 
     public int size() {
-        return amountElement;
+        return amountElements;
     }
-    
+
 
     @Override
     public boolean equals(Object obj) {
