@@ -4,10 +4,11 @@ Implementation of various algorithms in different programming languages (Java, C
 ##
 Implementation Plan for Algorithms and Data Structures:
 
-<b>Sorting</b>
+<b>Algorithms</b>
  - Bubble sort
  - ~~Binary Search~~
  - Quick sort
+ - ~~String reverse~~
  - Sort Inserts
  - Sort By Choice
  - Merge Sort
