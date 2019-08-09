@@ -10,7 +10,7 @@ public class BubbleSort_Class
         }
     }
 
-    public void PrintArray(int[] arr)
+    public void printArray(int[] arr)
     {
         for (int i = 0; i < arr.length; i++)
         {
@@ -21,7 +21,7 @@ public class BubbleSort_Class
     }
 
 
-    public void Sort(int[] main_array)
+    public void sort(int[] main_array)
     {
         boolean isSwapped = false;
         do {
@@ -35,7 +35,7 @@ public class BubbleSort_Class
         }while (!isSwapped);
     }
 
-    public void ReadyArray(int[] arr)
+    public void readyArray(int[] arr)
     {
         for (int i = 0; i < arr.length; i++)
         {
