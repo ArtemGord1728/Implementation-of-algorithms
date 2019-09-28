@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\Implementation-of-algorithms\SortingSelection\SortingSelection\main.cpp(7,20): warning C4018:  <: несоответствие типов со знаком и без знака
+  SortingSelection.vcxproj -> D:\Implementation-of-algorithms\SortingSelection\Debug\SortingSelection.exe
